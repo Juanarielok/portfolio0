@@ -6,14 +6,12 @@ export const RESUME_DATA = {
 	location: 'Buenos Aires, Argentina',
 	locationLink: '',
 	about: 'Software Engineer.',
-	summary: `.`,
+	summary: ` Hello! I’m Juan Ariel, a passionate software engineer with a degree in Systems Analysis, specializing in fullstack development. Are you looking for a dedicated, experienced professional eager for new challenges?
+
+	That's me!`,
 	avatar: '/assets/avatar.webp',
 
 	contact: {
-		link: {
-			name: 'Other Links',
-			url: 'https://link.emapeire.xyz'
-		},
 		email: {
 			name: 'Email',
 			at: 'juanarielok@gmail.com'
@@ -54,9 +52,33 @@ export const RESUME_DATA = {
 			description: `Worked as a fullstack developer, creating platforms, working on their maintenance and seeking for their scalability.`
 		}
 	],
-	skills: [
-
+	 
+skills: [
+	'TypeScript',
+'JavaScript',
+'Python',
+'HTML5',
+'CSS',
+'SASS',
+'C#',
+'React',
+'Angular',
+'NextJS',
+'Jest',
+'React Testing Library',
+'Cypress',
+'Visual Studio',
+'Atom',
+'Postman',
+'SQL Workbench',
+'npm',
+'git',
+'IBM Cloud',
+'Google Cloud',
+'AWS'
 	],
+	
+	
 	projects: [
 		{
 			title: '██▓▒­░⡷⠂𝙵𝙸𝚂𝙷 𝙼𝙰𝙽𝙰𝙶𝙴𝚁⠐⢾░▒▓██',

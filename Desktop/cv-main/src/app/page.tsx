@@ -138,10 +138,6 @@ export default function Page() {
 			<CommandMenu
 				links={[
 					{
-						url: data.personalWebsiteUrl.url,
-						title: data.personalWebsiteUrl.name
-					},
-					{
 						url: `mailto:${data.contact.email.at}`,
 						title: data.contact.email.name
 					},
@@ -153,10 +149,7 @@ export default function Page() {
 						url: socialMediaLink.url,
 						title: socialMediaLink.name
 					})),
-					{
-						url: data.contact.link.url,
-						title: data.contact.link.name
-					}
+					
 				]}
 			/>
 		</main>
